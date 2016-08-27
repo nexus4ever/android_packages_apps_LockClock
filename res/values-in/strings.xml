@@ -79,8 +79,8 @@
   <string name="weather_W">B</string>
   <string name="weather_NW">BL</string>
   <string name="weather_no_data">Tidak ada data</string>
-  <string name="weather_tap_to_refresh">Tap untuk merefresh</string>
-  <string name="weather_refreshing">Refreshing</string>
+  <string name="weather_tap_to_refresh">Ketuk untuk menyegarkan</string>
+  <string name="weather_refreshing">Menyegarkan</string>
   <string name="weather_last_sync_just_now">Baru saja</string>
   <string name="weather_cannot_reach_provider">Tidak dapat mencapai %s pada saat ini</string>
   <string name="weather_refresh_manual">Manual</string>
@@ -96,7 +96,7 @@
   <string name="general_category">Umum</string>
   <string name="display_category">Tampilan</string>
   <string name="use_digital_clock_title">Gunakan jam Digital</string>
-  <string name="use_digital_clock_summary">Pilih untuk beralih di antara Digital dan jam Analog</string>
+  <string name="use_digital_clock_summary">Pilih untuk beralih di antara jam digital dan analog</string>
   <string name="clock_font_title">Tebal jam</string>
   <string name="clock_font_minutes_title">Tebal menit</string>
   <string name="clock_font_date_title">Tebal tanggal dan alarm</string>
@@ -121,9 +121,9 @@
   <string name="weather_invert_lowhigh">Balikkan suhu rendah/tinggi</string>
   <string name="weather_progress_title">Verifikasi lokasi</string>
   <string name="weather_alternate_icons_title">Gunakan ikon warna</string>
-  <string name="weather_alternate_icons_summary">Pilih untuk beralih antara ikon baku (warna) atau alternatif (putih)</string>
-  <string name="weather_show_when_minimized_title">Tampilkan ketika diminimalkan</string>
-  <string name="weather_show_when_minimized_summary">Tampilkan ringkasan informasi cuaca ketika widget diminimalkan</string>
+  <string name="weather_alternate_icons_summary">Pilih untuk beralih di antara ikon bawaan (berwarna) atau ikon alternatif (putih)</string>
+  <string name="weather_show_when_minimized_title">Tampilkan ketika dikecilkan</string>
+  <string name="weather_show_when_minimized_summary">Tampilkan ringkasan informasi cuaca ketika widget diperkecil</string>
   <string name="weather_select_location">Pilih lokasi</string>
   <string name="calendar_title">Tampilkan acara berikutnya</string>
   <string name="calendars_title">Kalender acara</string>
@@ -139,10 +139,15 @@
   <string name="calendar_highlight_upcoming_events_title">Sorot acara</string>
   <string name="calendar_highlight_upcoming_events_summary">Sorot acara hari ini, setelah jam 8, juga acara-acara hari berikutnya</string>
   <string name="calendar_highlight_upcoming_events_bold">Huruf tebal</string>
+  <!-- Preferences - Font colors -->
   <string name="font_color">Warna huruf</string>
   <string name="font_color_alarm">Warna huruf alarm</string>
   <string name="font_color_timestamp">Warna huruf jam</string>
-  <string name="font_color_calendar_details">Warna huruf rincian</string>
+  <string name="font_color_calendar_details">Warna huruf detail</string>
+  <!-- Preferences - Background color -->
+  <string name="background_color">Warna latar belakang</string>
+  <string name="background_transparency">Transparansi latar belakang</string>
+  <!-- Calendar - Lookahead -->
   <string name="calendar_lookahead_3hrs">3 jam</string>
   <string name="calendar_lookahead_6hrs">6 jam</string>
   <string name="calendar_lookahead_12hrs">12 jam</string>
