@@ -403,7 +403,11 @@ public class WeatherUpdateService extends Service {
     public static void scheduleNextUpdate(Context context, boolean force) {
         long lastUpdate = Preferences.lastWeatherUpdateTimestamp(context);
         if (lastUpdate == 0 || force) {
-            scheduleUpdate(context, 10000, true); // add 10 sec interval to wait network
+            if (WidgetUtils.isNetworkAvailable(context)) {
+        	scheduleUpdate(context, 0, true);
+            } else {
+        	scheduleUpdate(context, 30000, true); // add 30 sec interval to wait network
+            }
         } else {
             long interval = Preferences.weatherRefreshIntervalInMs(context);
             scheduleUpdate(context, lastUpdate + interval - System.currentTimeMillis(), false);
